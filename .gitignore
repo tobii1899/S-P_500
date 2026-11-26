@@ -1,0 +1,17 @@
+# Geheimnisse - niemals ins Repository
+.env
+.env.*
+!.env.example
+
+# lokal erzeugt
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+state/
+data/*
+!data/.gitkeep
+*.db
+*.db-journal
+.DS_Store
