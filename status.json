@@ -1,0 +1,61 @@
+{
+  "server_time": "2026-11-26T21:18:28+00:00",
+  "mode": "paper",
+  "mode_label": "Paper Trading",
+  "market": {
+    "status": "closed",
+    "label": "Börse geschlossen",
+    "open": "2026-11-26T14:30:00+00:00",
+    "close": "2026-11-26T21:00:00+00:00",
+    "entry_end": "2026-11-26T16:00:00+00:00",
+    "force_close_at": "2026-11-26T20:55:00+00:00"
+  },
+  "broker": {
+    "connected": false,
+    "detail": "Noch kein Bot-Lauf"
+  },
+  "account": {
+    "equity_usd": 100000.0,
+    "equity_eur": 91116.0,
+    "fx": 0.9112,
+    "source": "bot"
+  },
+  "today": {
+    "date": "2026-11-26",
+    "status": "CLOSED",
+    "reason": "Börse geschlossen (Wochenende/Feiertag)"
+  },
+  "trade": null,
+  "evaluation": null,
+  "stats": {
+    "trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "flat": 0,
+    "winrate": 0.0,
+    "total_pnl": 0,
+    "total_return_pct": 0.0,
+    "avg_win": 0.0,
+    "avg_loss": 0.0,
+    "profit_factor": null
+  },
+  "curve": [],
+  "history": [
+    {
+      "date": "2026-11-26",
+      "status": "CLOSED",
+      "side": null,
+      "entry": null,
+      "exit": null,
+      "pnl_eur": null,
+      "reason": "Börse geschlossen (Wochenende/Feiertag)",
+      "exit_reason": null
+    }
+  ],
+  "events": [],
+  "live": false,
+  "risk": {
+    "risk_pct": 1.0,
+    "max_leverage": 2.0
+  }
+}
